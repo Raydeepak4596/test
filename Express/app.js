@@ -13,5 +13,5 @@ db()
 app.use('/api/vi',router)
 
 app.listen(process.env.PORT,(req,res)=>{
-    console.log(`port is running ${process.env.PORT}`)
+    console.log(`port is test running ${process.env.PORT}`)
 })
